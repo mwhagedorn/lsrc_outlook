@@ -1,0 +1,882 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='1.0'>
+<enum value='1095983459' name='OutlookAcceptanceStatusAccepted'/>
+<enum value='1095984229' name='OutlookAcceptanceStatusDeclined'/>
+<enum value='1095986802' name='OutlookAcceptanceStatusNotResponded'/>
+<enum value='1095988325' name='OutlookAcceptanceStatusTentativelyAccepted'/>
+<enum value='1668170084' name='OutlookAttendeeAddressTypeContactAttendee'/>
+<enum value='1885421924' name='OutlookAttendeeAddressTypePrivateGroupAttendee'/>
+<enum value='1885815140' name='OutlookAttendeeAddressTypePublicGroupAttendee'/>
+<enum value='1970159972' name='OutlookAttendeeAddressTypeUnresolvedAttendee'/>
+<enum value='1096052592' name='OutlookAttendeeTypeOptionalAttendeeType'/>
+<enum value='1096053361' name='OutlookAttendeeTypeRequiredAttendeeType'/>
+<enum value='1096053363' name='OutlookAttendeeTypeResourceAttendeeType'/>
+<enum value='1231962995' name='OutlookAttributionStyleIncludeCustom'/>
+<enum value='1231964260' name='OutlookAttributionStyleIncludeHeader'/>
+<enum value='1852796517' name='OutlookAttributionStyleNone'/>
+<enum value='1667527748' name='OutlookContactDisplayTypeDistributionList'/>
+<enum value='1668310085' name='OutlookContactDisplayTypeEquipment'/>
+<enum value='1667526738' name='OutlookContactDisplayTypeMeetingRoom'/>
+<enum value='1667527760' name='OutlookContactDisplayTypePerson'/>
+<enum value='1667518532' name='OutlookContactDisplayTypePrivateDistributionList'/>
+<enum value='1699245413' name='OutlookContactEmailAddressTypeHome'/>
+<enum value='1699705960' name='OutlookContactEmailAddressTypeOther'/>
+<enum value='1700229739' name='OutlookContactEmailAddressTypeWork'/>
+<enum value='1698975348' name='OutlookContactIMAddressTypeDotNet'/>
+<enum value='1699303284' name='OutlookContactIMAddressTypeImOther'/>
+<enum value='1699957104' name='OutlookContactIMAddressTypeSIP'/>
+<enum value='1181305953' name='OutlookContactNameStyleFirstLast'/>
+<enum value='1279477353' name='OutlookContactNameStyleLastCommaFirst'/>
+<enum value='1281443433' name='OutlookContactNameStyleLastFirst'/>
+<enum value='1097624643' name='OutlookContactSelectionAllContacts'/>
+<enum value='1181509443' name='OutlookContactSelectionFlaggedContacts'/>
+<enum value='1346589541' name='OutlookContactSelectionSelectedContact'/>
+<enum value='1131364708' name='OutlookEmailAddressTypeContactAddress'/>
+<enum value='1349665124' name='OutlookEmailAddressTypePrivateGroupAddress'/>
+<enum value='1349861732' name='OutlookEmailAddressTypePublicGroupAddress'/>
+<enum value='1433289060' name='OutlookEmailAddressTypeUnresolvedAddress'/>
+<enum value='1699038324' name='OutlookEndDataTypeEndDateType'/>
+<enum value='1699040884' name='OutlookEndDataTypeEndNumberedType'/>
+<enum value='1699628404' name='OutlookEndDataTypeNoEndType'/>
+<enum value='1698983015' name='OutlookExchangeAccountTypeDelegatedAccount'/>
+<enum value='1699705960' name='OutlookExchangeAccountTypeOtherUsersFolderAccount'/>
+<enum value='1699770989' name='OutlookExchangeAccountTypePrimaryAccount'/>
+<enum value='1181500271' name='OutlookFlagCompleted'/>
+<enum value='1181503043' name='OutlookFlagNotCompleted'/>
+<enum value='1181503046' name='OutlookFlagNotFlagged'/>
+<enum value='1699955317' name='OutlookFreeBusyStatusBusy'/>
+<enum value='1699956338' name='OutlookFreeBusyStatusFree'/>
+<enum value='1699958607' name='OutlookFreeBusyStatusOutOfOffice'/>
+<enum value='1699959909' name='OutlookFreeBusyStatusTentative'/>
+<enum value='1097627507' name='OutlookInternetPictureBehaviorAlways'/>
+<enum value='1315272289' name='OutlookInternetPictureBehaviorNever'/>
+<enum value='1181893487' name='OutlookInternetPictureBehaviorOnlyFromContacts'/>
+<enum value='1768702275' name='OutlookItemListSortAccountSort'/>
+<enum value='1768702291' name='OutlookItemListSortAttachmentSort'/>
+<enum value='1768702803' name='OutlookItemListSortCategorySort'/>
+<enum value='1768702799' name='OutlookItemListSortConversationSort'/>
+<enum value='1768703059' name='OutlookItemListSortDisplayNameSort'/>
+<enum value='1768703044' name='OutlookItemListSortDueDateSort'/>
+<enum value='1768703564' name='OutlookItemListSortFlagSort'/>
+<enum value='1768703567' name='OutlookItemListSortFolderSort'/>
+<enum value='1768703571' name='OutlookItemListSortFromSort'/>
+<enum value='1768706131' name='OutlookItemListSortPrioritySort'/>
+<enum value='1768706643' name='OutlookItemListSortReceivedTimeSort'/>
+<enum value='1768706885' name='OutlookItemListSortSentTimeSort'/>
+<enum value='1768706889' name='OutlookItemListSortSizeSort'/>
+<enum value='1768706899' name='OutlookItemListSortStatusSort'/>
+<enum value='1768706901' name='OutlookItemListSortSubjectSort'/>
+<enum value='1768707145' name='OutlookItemListSortTitleSort'/>
+<enum value='1768707155' name='OutlookItemListSortToSort'/>
+<enum value='1130452599' name='OutlookMainWindowViewCalendarView'/>
+<enum value='1131370103' name='OutlookMainWindowViewContactView'/>
+<enum value='1298224759' name='OutlookMainWindowViewMailView'/>
+<enum value='1315919479' name='OutlookMainWindowViewNoteView'/>
+<enum value='1415665271' name='OutlookMainWindowViewTaskView'/>
+<enum value='1297239920' name='OutlookMarkAsReadBehaviorAfterOpening'/>
+<enum value='1297240178' name='OutlookMarkAsReadBehaviorAfterPreviewTime'/>
+<enum value='1297240899' name='OutlookMarkAsReadBehaviorAfterSelectionChange'/>
+<enum value='1297376097' name='OutlookMeetingMessageTypeCancellationMeetingType'/>
+<enum value='1297376111' name='OutlookMeetingMessageTypeCounterProposalMeetingType'/>
+<enum value='1297379953' name='OutlookMeetingMessageTypeRequestMeetingType'/>
+<enum value='1297379941' name='OutlookMeetingMessageTypeResponseMeetingType'/>
+<enum value='1819763828' name='OutlookPrintingErrorHandlingDetailed'/>
+<enum value='1819767668' name='OutlookPrintingErrorHandlingStandard'/>
+<enum value='1349666921' name='OutlookPriorityPriorityHigh'/>
+<enum value='1349667951' name='OutlookPriorityPriorityLow'/>
+<enum value='1349668466' name='OutlookPriorityPriorityNormal'/>
+<enum value='1768703088' name='OutlookReadingPanePositionDisplayBelow'/>
+<enum value='1768703080' name='OutlookReadingPanePositionDisplayHidden'/>
+<enum value='1768703075' name='OutlookReadingPanePositionDisplayRight'/>
+<enum value='1381261923' name='OutlookRecipientTypeBccRecipientType'/>
+<enum value='1381262179' name='OutlookRecipientTypeCcRecipientType'/>
+<enum value='1381266543' name='OutlookRecipientTypeToRecipientType'/>
+<enum value='1699897709' name='OutlookRecurrencePatternTypeAbsoluteMonthly'/>
+<enum value='1699897721' name='OutlookRecurrencePatternTypeAbsoluteYearly'/>
+<enum value='1699898480' name='OutlookRecurrencePatternTypeDaily'/>
+<enum value='1699902061' name='OutlookRecurrencePatternTypeRelativeMonthly'/>
+<enum value='1699902073' name='OutlookRecurrencePatternTypeRelativeYearly'/>
+<enum value='1699903344' name='OutlookRecurrencePatternTypeWeekly'/>
+<enum value='1634954016' name='OutlookSaveOptionsAsk'/>
+<enum value='1852776480' name='OutlookSaveOptionsNo'/>
+<enum value='2036691744' name='OutlookSaveOptionsYes'/>
+<enum value='1668301126' name='OutlookSearchTypeAllFields'/>
+<enum value='1668304467' name='OutlookSearchTypeNameSearch'/>
+<enum value='1397244209' name='OutlookSecurityMessageDigestAlgorithmSHA1'/>
+<enum value='1395799350' name='OutlookSecurityMessageDigestAlgorithmSHA256'/>
+<enum value='1395865652' name='OutlookSecurityMessageDigestAlgorithmSHA384'/>
+<enum value='1395994930' name='OutlookSecurityMessageDigestAlgorithmSHA512'/>
+<enum value='1093743160' name='OutlookSecuritySymmetricEncryptionAlgorithmAES128'/>
+<enum value='1093744946' name='OutlookSecuritySymmetricEncryptionAlgorithmAES192'/>
+<enum value='1093809462' name='OutlookSecuritySymmetricEncryptionAlgorithmAES256'/>
+<enum value='860112211' name='OutlookSecuritySymmetricEncryptionAlgorithmTripleDES'/>
+<enum value='1111704352' name='OutlookSendToSelfBehaviorBcc'/>
+<enum value='1128472608' name='OutlookSendToSelfBehaviorCc'/>
+<enum value='1146378091' name='OutlookTaskSelectionDueThisWeek'/>
+<enum value='1146384228' name='OutlookTaskSelectionDueToday'/>
+<enum value='1229156205' name='OutlookTaskSelectionIncomplete'/>
+<enum value='1280731493' name='OutlookTaskSelectionListView'/>
+<enum value='1346464876' name='OutlookTaskSelectionPrintAll'/>
+<enum value='1399155813' name='OutlookTaskSelectionSelectedTask'/>
+<class name='OutlookAccount'>
+<method selector='setUseSsl:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='useSsl'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookAlert'>
+<method selector='deleteContent'>
+<retval type='B'/>
+</method>
+<method selector='followup'>
+<retval type='B'/>
+</method>
+<method selector='openContent'>
+<retval type='B'/>
+</method>
+<method selector='setDeleteContent:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setFollowup:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setOpenContent:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='OutlookAlertsCenter'>
+<method selector='closeAlerts'>
+<retval type='B'/>
+</method>
+<method selector='setCloseAlerts:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='OutlookApplication'>
+<method selector='alertShowsPreview'>
+<retval type='B'/>
+</method>
+<method selector='bounceDockIcon'>
+<retval type='B'/>
+</method>
+<method selector='categorizeMessageFromContacts'>
+<retval type='B'/>
+</method>
+<method selector='closeWindowAfterReplyAndForward'>
+<retval type='B'/>
+</method>
+<method selector='composeMessagesInHtmlByDefault'>
+<retval type='B'/>
+</method>
+<method selector='displayAlerts'>
+<retval type='B'/>
+</method>
+<method selector='expandConversationOnSelect'>
+<retval type='B'/>
+</method>
+<method selector='expandSingleConversation'>
+<retval type='B'/>
+</method>
+<method selector='frontmost'>
+<retval type='B'/>
+</method>
+<method selector='groupSimilarFolders'>
+<retval type='B'/>
+</method>
+<method selector='hideImapMessagesMarkedForDeletion'>
+<retval type='B'/>
+</method>
+<method selector='hideOnMyComputerFolders'>
+<retval type='B'/>
+</method>
+<method selector='highlightMessagesFromConversation'>
+<retval type='B'/>
+</method>
+<method selector='importIdentity:'>
+<retval type='B'/>
+</method>
+<method selector='importOlm:'>
+<retval type='B'/>
+</method>
+<method selector='importPst:'>
+<retval type='B'/>
+</method>
+<method selector='importRge:'>
+<retval type='B'/>
+</method>
+<method selector='includeMyselfWhenSending'>
+<retval type='B'/>
+</method>
+<method selector='indentLinesOfOriginalHtmlMessage'>
+<retval type='B'/>
+</method>
+<method selector='indentLinesOfOriginalPlainTextMessage'>
+<retval type='B'/>
+</method>
+<method selector='loadImageForceUpdate:emailAddress:contact:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='openContactEmailAddress:'>
+<retval type='B'/>
+</method>
+<method selector='placeCursorBeforeOriginalHtmlMessage'>
+<retval type='B'/>
+</method>
+<method selector='placeCursorBeforeOriginalPlainTextMessage'>
+<retval type='B'/>
+</method>
+<method selector='playSoundOnMessageSend'>
+<retval type='B'/>
+</method>
+<method selector='playSoundOnNewMessage'>
+<retval type='B'/>
+</method>
+<method selector='playSoundOnNoNewMessages'>
+<retval type='B'/>
+</method>
+<method selector='playSoundOnReminder'>
+<retval type='B'/>
+</method>
+<method selector='playSoundOnStartup'>
+<retval type='B'/>
+</method>
+<method selector='playSoundOnSyncError'>
+<retval type='B'/>
+</method>
+<method selector='retainFormatOnRepliesOrForwards'>
+<retval type='B'/>
+</method>
+<method selector='setAlertShowsPreview:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setBounceDockIcon:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setCategorizeMessageFromContacts:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setCloseWindowAfterReplyAndForward:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setComposeMessagesInHtmlByDefault:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setDisplayAlerts:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setExpandConversationOnSelect:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setExpandSingleConversation:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setGroupSimilarFolders:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setHideImapMessagesMarkedForDeletion:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setHideOnMyComputerFolders:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setHighlightMessagesFromConversation:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setIncludeMyselfWhenSending:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setIndentLinesOfOriginalHtmlMessage:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setIndentLinesOfOriginalPlainTextMessage:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPlaceCursorBeforeOriginalHtmlMessage:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPlaceCursorBeforeOriginalPlainTextMessage:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPlaySoundOnMessageSend:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPlaySoundOnNewMessage:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPlaySoundOnNoNewMessages:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPlaySoundOnReminder:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPlaySoundOnStartup:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPlaySoundOnSyncError:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setRetainFormatOnRepliesOrForwards:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setShowNewCategoriesInNavigationPane:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSystemDefaultAddressBookApplication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSystemDefaultCalendarApplication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSystemDefaultEverythingApplication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSystemDefaultMailApplication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setUseDefaultAccountForRepliesAndForwards:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setWorkingOffline:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='showNewCategoriesInNavigationPane'>
+<retval type='B'/>
+</method>
+<method selector='systemDefaultAddressBookApplication'>
+<retval type='B'/>
+</method>
+<method selector='systemDefaultCalendarApplication'>
+<retval type='B'/>
+</method>
+<method selector='systemDefaultEverythingApplication'>
+<retval type='B'/>
+</method>
+<method selector='systemDefaultMailApplication'>
+<retval type='B'/>
+</method>
+<method selector='useDefaultAccountForRepliesAndForwards'>
+<retval type='B'/>
+</method>
+<method selector='workingOffline'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookCalendarEvent'>
+<method selector='acceptMeetingComment:sendingResponse:'>
+<arg type='B' index='1'/>
+</method>
+<method selector='acceptTentativelyMeetingComment:sendingResponse:'>
+<arg type='B' index='1'/>
+</method>
+<method selector='allDayFlag'>
+<retval type='B'/>
+</method>
+<method selector='declineMeetingComment:sendingResponse:'>
+<arg type='B' index='1'/>
+</method>
+<method selector='forwardTo:openingWindow:'>
+<arg type='B' index='1'/>
+</method>
+<method selector='hasHtml'>
+<retval type='B'/>
+</method>
+<method selector='hasReminder'>
+<retval type='B'/>
+</method>
+<method selector='isOccurrence'>
+<retval type='B'/>
+</method>
+<method selector='isPrivate'>
+<retval type='B'/>
+</method>
+<method selector='isRecurring'>
+<retval type='B'/>
+</method>
+<method selector='replyToOpeningWindow:replyToAll:'>
+<arg type='B' index='0'/>
+<arg type='B' index='1'/>
+</method>
+<method selector='requestResponses'>
+<retval type='B'/>
+</method>
+<method selector='setAllDayFlag:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setHasReminder:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setIsPrivate:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setRequestResponses:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='OutlookCategory'>
+<method selector='setShowInNavigationPane:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='showInNavigationPane'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookContact'>
+<method selector='isJapaneseContact'>
+<retval type='B'/>
+</method>
+<method selector='setIsJapaneseContact:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='OutlookContactsPanel'>
+<method selector='searching'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookExchangeAccount'>
+<method selector='backgroundAutodiscover'>
+<retval type='B'/>
+</method>
+<method selector='encryptMessageByDefault'>
+<retval type='B'/>
+</method>
+<method selector='includeSigningCertificate'>
+<retval type='B'/>
+</method>
+<method selector='isConnected'>
+<retval type='B'/>
+</method>
+<method selector='isMicrosoftOnline'>
+<retval type='B'/>
+</method>
+<method selector='ldapNeedsAuthentication'>
+<retval type='B'/>
+</method>
+<method selector='ldapUseSsl'>
+<retval type='B'/>
+</method>
+<method selector='receivePartialMessages'>
+<retval type='B'/>
+</method>
+<method selector='setBackgroundAutodiscover:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setEncryptMessageByDefault:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setIncludeSigningCertificate:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setLdapNeedsAuthentication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setLdapUseSsl:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setReceivePartialMessages:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSignMessageByDefault:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setUseKerberosAuthentication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='signMessageByDefault'>
+<retval type='B'/>
+</method>
+<method selector='useKerberosAuthentication'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookFolder'>
+<method selector='hasIdleThread'>
+<retval type='B'/>
+</method>
+<method selector='subscribed'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookGroup'>
+<method selector='setSuppressMemberNames:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='suppressMemberNames'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookImapAccount'>
+<method selector='deleteAllMessagesOnQuit'>
+<retval type='B'/>
+</method>
+<method selector='deleteExpiredMessagesOnQuit'>
+<retval type='B'/>
+</method>
+<method selector='downloadCompleteMessagesInInboxOnly'>
+<retval type='B'/>
+</method>
+<method selector='downloadMessageBodies'>
+<retval type='B'/>
+</method>
+<method selector='emptyDeletedItemsFolderOnQuit'>
+<retval type='B'/>
+</method>
+<method selector='imapIdle'>
+<retval type='B'/>
+</method>
+<method selector='imapIdleTimeout'>
+<retval type='B'/>
+</method>
+<method selector='purgeMessagesOnQuit'>
+<retval type='B'/>
+</method>
+<method selector='saveSentItems'>
+<retval type='B'/>
+</method>
+<method selector='setDeleteAllMessagesOnQuit:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setDeleteExpiredMessagesOnQuit:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setDownloadCompleteMessagesInInboxOnly:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setDownloadMessageBodies:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setEmptyDeletedItemsFolderOnQuit:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setImapIdle:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setImapIdleTimeout:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setPurgeMessagesOnQuit:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSaveSentItems:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSmtpNeedsAuthentication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSmtpUseAccountAuthentication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSmtpUseSsl:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setStoreDeletedItemsOnServer:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setStoreDraftsOnServer:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setStoreJunkMailOnServer:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setStoreSentItemsOnServer:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setUseSecurePassword:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='smtpNeedsAuthentication'>
+<retval type='B'/>
+</method>
+<method selector='smtpUseAccountAuthentication'>
+<retval type='B'/>
+</method>
+<method selector='smtpUseSsl'>
+<retval type='B'/>
+</method>
+<method selector='storeDeletedItemsOnServer'>
+<retval type='B'/>
+</method>
+<method selector='storeDraftsOnServer'>
+<retval type='B'/>
+</method>
+<method selector='storeJunkMailOnServer'>
+<retval type='B'/>
+</method>
+<method selector='storeSentItemsOnServer'>
+<retval type='B'/>
+</method>
+<method selector='useSecurePassword'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookItem'>
+<method selector='exists'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookItemListNode'>
+<method selector='expandable'>
+<retval type='B'/>
+</method>
+<method selector='expanded'>
+<retval type='B'/>
+</method>
+<method selector='setExpanded:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setVisible:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='visible'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookLdapAccount'>
+<method selector='needsAuthentication'>
+<retval type='B'/>
+</method>
+<method selector='setNeedsAuthentication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setUseKerberosAuthentication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setUseSimpleSearch:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setUseSsl:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='useKerberosAuthentication'>
+<retval type='B'/>
+</method>
+<method selector='useSimpleSearch'>
+<retval type='B'/>
+</method>
+<method selector='useSsl'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookMainWindow'>
+<method selector='setSortedInGroups:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='sortedInGroups'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookMeetingMessage'>
+<method selector='acceptInviteSendingResponse:comment:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='acceptTentativelyInviteSendingResponse:comment:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='declineInviteSendingResponse:comment:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='OutlookMessage'>
+<method selector='edited'>
+<retval type='B'/>
+</method>
+<method selector='forwardTo:openingWindow:'>
+<arg type='B' index='1'/>
+</method>
+<method selector='forwarded'>
+<retval type='B'/>
+</method>
+<method selector='hasHtml'>
+<retval type='B'/>
+</method>
+<method selector='isMarkedForDelete'>
+<retval type='B'/>
+</method>
+<method selector='isMeeting'>
+<retval type='B'/>
+</method>
+<method selector='isPartiallyDownloaded'>
+<retval type='B'/>
+</method>
+<method selector='isRead'>
+<retval type='B'/>
+</method>
+<method selector='isRightsProtected'>
+<retval type='B'/>
+</method>
+<method selector='redirected'>
+<retval type='B'/>
+</method>
+<method selector='repliedTo'>
+<retval type='B'/>
+</method>
+<method selector='repliedToAll'>
+<retval type='B'/>
+</method>
+<method selector='replyToOpeningWindow:replyToAll:'>
+<arg type='B' index='0'/>
+<arg type='B' index='1'/>
+</method>
+<method selector='setIsMarkedForDelete:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setIsRead:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSmimeEncrypted:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSmimeSigned:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='smimeEncrypted'>
+<retval type='B'/>
+</method>
+<method selector='smimeSigned'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookNavigationNode'>
+<method selector='checked'>
+<retval type='B'/>
+</method>
+<method selector='displayNameIsBold'>
+<retval type='B'/>
+</method>
+<method selector='expanded'>
+<retval type='B'/>
+</method>
+<method selector='setExpanded:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setVisible:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='visible'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookOtherUsersFolderAccount'>
+<method selector='addressBookOpen'>
+<retval type='B'/>
+</method>
+<method selector='calendarOpen'>
+<retval type='B'/>
+</method>
+<method selector='inboxOpen'>
+<retval type='B'/>
+</method>
+<method selector='setAddressBookOpen:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setCalendarOpen:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setInboxOpen:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='OutlookOutgoingMessage'>
+<method selector='wasSent'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookPopAccount'>
+<method selector='deleteMessagesFromServer'>
+<retval type='B'/>
+</method>
+<method selector='deleteMessagesFromServerWhenDeletedFromComputer'>
+<retval type='B'/>
+</method>
+<method selector='setDeleteMessagesFromServer:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setDeleteMessagesFromServerWhenDeletedFromComputer:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSmtpNeedsAuthentication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSmtpUseAccountAuthentication:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setSmtpUseSsl:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setUseSecurePassword:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='smtpNeedsAuthentication'>
+<retval type='B'/>
+</method>
+<method selector='smtpUseAccountAuthentication'>
+<retval type='B'/>
+</method>
+<method selector='smtpUseSsl'>
+<retval type='B'/>
+</method>
+<method selector='useSecurePassword'>
+<retval type='B'/>
+</method>
+</class>
+<class name='OutlookSchedule'>
+<method selector='enabled'>
+<retval type='B'/>
+</method>
+<method selector='setEnabled:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='OutlookSignature'>
+<method selector='includeInRandom'>
+<retval type='B'/>
+</method>
+<method selector='setIncludeInRandom:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<class name='OutlookWindow'>
+<method selector='closeable'>
+<retval type='B'/>
+</method>
+<method selector='floating'>
+<retval type='B'/>
+</method>
+<method selector='miniaturizable'>
+<retval type='B'/>
+</method>
+<method selector='miniaturized'>
+<retval type='B'/>
+</method>
+<method selector='modal'>
+<retval type='B'/>
+</method>
+<method selector='resizable'>
+<retval type='B'/>
+</method>
+<method selector='setMiniaturized:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setVisible:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='setZoomed:'>
+<arg type='B' index='0'/>
+</method>
+<method selector='titled'>
+<retval type='B'/>
+</method>
+<method selector='visible'>
+<retval type='B'/>
+</method>
+<method selector='zoomable'>
+<retval type='B'/>
+</method>
+<method selector='zoomed'>
+<retval type='B'/>
+</method>
+</class>
+</signatures>

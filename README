@@ -1,0 +1,9 @@
+step 1
+generate bridge file
+sdef /Applications/YOURAPP.app | sdp -fh --basename YOURAPP
+
+step2
+generate bridge metadata
+gen_bridge_metadata -c '-I.' iTunes.h &gt; iTunes.bridgesupport
+
+
